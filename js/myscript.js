@@ -20,3 +20,16 @@ function myf2(){
       }
 }
 z.onclick =myf2;
+
+let a = document.getElementById('narr');
+let b = document.getElementById('bu');
+
+function myfun(){
+  if (a.style.display == "block") {
+      a.style.display = "none" ;
+    } else  {
+      a.style.display = "block";
+      a.style.visibility="visible";
+    }
+  }
+b.onclick=myfun;
